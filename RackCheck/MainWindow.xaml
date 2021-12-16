@@ -1,0 +1,147 @@
+﻿<Window x:Class="RackCheck.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RackCheck"
+        mc:Ignorable="d"
+        Title="RackCheck" Height="300" Width="1275">
+
+    <Canvas x:Name="MainCanvas">
+        <Label Content="1" HorizontalAlignment="Left" Margin="80,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="2" HorizontalAlignment="Left" Margin="180,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="3" HorizontalAlignment="Left" Margin="280,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="4" HorizontalAlignment="Left" Margin="380,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="5" HorizontalAlignment="Left" Margin="480,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="6" HorizontalAlignment="Left" Margin="580,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="7" HorizontalAlignment="Left" Margin="680,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="8" HorizontalAlignment="Left" Margin="780,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="9" HorizontalAlignment="Left" Margin="880,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="0" HorizontalAlignment="Left" Margin="980,10,0,0" VerticalAlignment="Top" FontSize="16"/>
+
+
+        <Label Content="A" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="B" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="C" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="D" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="E" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top" FontSize="16"/>
+
+        <TextBox x:Name="RackTextBox1" HorizontalAlignment="Left" Margin="40,45,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox2" HorizontalAlignment="Left" Margin="140,45,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox3" HorizontalAlignment="Left" Margin="240,45,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox4" HorizontalAlignment="Left" Margin="340,45,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox5" HorizontalAlignment="Left" Margin="440,45,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox6" HorizontalAlignment="Left" Margin="540,45,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox7" HorizontalAlignment="Left" Margin="640,45,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox8" HorizontalAlignment="Left" Margin="740,45,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox9" HorizontalAlignment="Left" Margin="840,45,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox10" HorizontalAlignment="Left" Margin="940,45,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox11" HorizontalAlignment="Left" Margin="40,75,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox12" HorizontalAlignment="Left" Margin="140,75,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox13" HorizontalAlignment="Left" Margin="240,75,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox14" HorizontalAlignment="Left" Margin="340,75,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox15" HorizontalAlignment="Left" Margin="440,75,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox16" HorizontalAlignment="Left" Margin="540,75,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox17" HorizontalAlignment="Left" Margin="640,75,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox18" HorizontalAlignment="Left" Margin="740,75,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox19" HorizontalAlignment="Left" Margin="840,75,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox20" HorizontalAlignment="Left" Margin="940,75,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox21" HorizontalAlignment="Left" Margin="40,105,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox22" HorizontalAlignment="Left" Margin="140,105,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox23" HorizontalAlignment="Left" Margin="240,105,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox24" HorizontalAlignment="Left" Margin="340,105,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox25" HorizontalAlignment="Left" Margin="440,105,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox26" HorizontalAlignment="Left" Margin="540,105,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox27" HorizontalAlignment="Left" Margin="640,105,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox28" HorizontalAlignment="Left" Margin="740,105,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox29" HorizontalAlignment="Left" Margin="840,105,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox30" HorizontalAlignment="Left" Margin="940,105,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox31" HorizontalAlignment="Left" Margin="40,135,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox32" HorizontalAlignment="Left" Margin="140,135,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox33" HorizontalAlignment="Left" Margin="240,135,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox34" HorizontalAlignment="Left" Margin="340,135,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox35" HorizontalAlignment="Left" Margin="440,135,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox36" HorizontalAlignment="Left" Margin="540,135,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox37" HorizontalAlignment="Left" Margin="640,135,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox38" HorizontalAlignment="Left" Margin="740,135,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox39" HorizontalAlignment="Left" Margin="840,135,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox40" HorizontalAlignment="Left" Margin="940,135,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox41" HorizontalAlignment="Left" Margin="40,165,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox42" HorizontalAlignment="Left" Margin="140,165,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox43" HorizontalAlignment="Left" Margin="240,165,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox44" HorizontalAlignment="Left" Margin="340,165,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox45" HorizontalAlignment="Left" Margin="440,165,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox46" HorizontalAlignment="Left" Margin="540,165,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox47" HorizontalAlignment="Left" Margin="640,165,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox48" HorizontalAlignment="Left" Margin="740,165,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox49" HorizontalAlignment="Left" Margin="840,165,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+        <TextBox x:Name="RackTextBox50" HorizontalAlignment="Left" Margin="940,165,0,0" TextWrapping="NoWrap" VerticalAlignment="Top" Width="95" FontSize="16" TextChanged="TB_TextChanged"/>
+
+        <Ellipse x:Name="Ellipse1" HorizontalAlignment="Left" Height="15" Margin="1050,50,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse2" HorizontalAlignment="Left" Height="15" Margin="1070,50,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse3" HorizontalAlignment="Left" Height="15" Margin="1090,50,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse4" HorizontalAlignment="Left" Height="15" Margin="1110,50,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse5" HorizontalAlignment="Left" Height="15" Margin="1130,50,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse6" HorizontalAlignment="Left" Height="15" Margin="1150,50,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse7" HorizontalAlignment="Left" Height="15" Margin="1170,50,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse8" HorizontalAlignment="Left" Height="15" Margin="1190,50,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse9" HorizontalAlignment="Left" Height="15" Margin="1210,50,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse10" HorizontalAlignment="Left" Height="15" Margin="1230,50,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+
+        <Ellipse x:Name="Ellipse11" HorizontalAlignment="Left" Height="15" Margin="1050,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse12" HorizontalAlignment="Left" Height="15" Margin="1070,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse13" HorizontalAlignment="Left" Height="15" Margin="1090,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse14" HorizontalAlignment="Left" Height="15" Margin="1110,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse15" HorizontalAlignment="Left" Height="15" Margin="1130,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse16" HorizontalAlignment="Left" Height="15" Margin="1150,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse17" HorizontalAlignment="Left" Height="15" Margin="1170,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse18" HorizontalAlignment="Left" Height="15" Margin="1190,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse19" HorizontalAlignment="Left" Height="15" Margin="1210,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse20" HorizontalAlignment="Left" Height="15" Margin="1230,80,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+
+        <Ellipse x:Name="Ellipse21" HorizontalAlignment="Left" Height="15" Margin="1050,110,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse22" HorizontalAlignment="Left" Height="15" Margin="1070,110,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse23" HorizontalAlignment="Left" Height="15" Margin="1090,110,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse24" HorizontalAlignment="Left" Height="15" Margin="1110,110,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse25" HorizontalAlignment="Left" Height="15" Margin="1130,110,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse26" HorizontalAlignment="Left" Height="15" Margin="1150,110,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse27" HorizontalAlignment="Left" Height="15" Margin="1170,110,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse28" HorizontalAlignment="Left" Height="15" Margin="1190,110,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse29" HorizontalAlignment="Left" Height="15" Margin="1210,110,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse30" HorizontalAlignment="Left" Height="15" Margin="1230,110,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+
+        <Ellipse x:Name="Ellipse31" HorizontalAlignment="Left" Height="15" Margin="1050,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse32" HorizontalAlignment="Left" Height="15" Margin="1070,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse33" HorizontalAlignment="Left" Height="15" Margin="1090,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse34" HorizontalAlignment="Left" Height="15" Margin="1110,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse35" HorizontalAlignment="Left" Height="15" Margin="1130,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse36" HorizontalAlignment="Left" Height="15" Margin="1150,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse37" HorizontalAlignment="Left" Height="15" Margin="1170,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse38" HorizontalAlignment="Left" Height="15" Margin="1190,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse39" HorizontalAlignment="Left" Height="15" Margin="1210,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse40" HorizontalAlignment="Left" Height="15" Margin="1230,140,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+
+        <Ellipse x:Name="Ellipse41" HorizontalAlignment="Left" Height="15" Margin="1050,170,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse42" HorizontalAlignment="Left" Height="15" Margin="1070,170,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse43" HorizontalAlignment="Left" Height="15" Margin="1090,170,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse44" HorizontalAlignment="Left" Height="15" Margin="1110,170,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse45" HorizontalAlignment="Left" Height="15" Margin="1130,170,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse46" HorizontalAlignment="Left" Height="15" Margin="1150,170,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse47" HorizontalAlignment="Left" Height="15" Margin="1170,170,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse48" HorizontalAlignment="Left" Height="15" Margin="1190,170,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse49" HorizontalAlignment="Left" Height="15" Margin="1210,170,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+        <Ellipse x:Name="Ellipse50" HorizontalAlignment="Left" Height="15" Margin="1230,170,0,0" Stroke="Black" VerticalAlignment="Top" Width="15" StrokeThickness="2" Fill="#FFFFFFFF"/>
+
+        <Label Content="Poszukiwany Barcode" Canvas.Left="40" Canvas.Top="200" FontSize="18"/>
+
+        <TextBox x:Name="FindTextBox" Canvas.Left="220" TextWrapping="NoWrap" Canvas.Top="205" Width="110" TextChanged="FindTextBox_TextChanged" FontSize="18"/>
+
+        <Button x:Name="BtClear" Content="Wyczyść" Canvas.Left="1050" Canvas.Top="205" Width="170" Click="BtClear_Click" FontSize="20"/>
+        <Button x:Name="About" Content="?" Canvas.Left="1220" Canvas.Top="205" Width="30" Click="BtAbout_Click" FontSize="20"/>
+
+        
+
+
+    </Canvas>
+</Window>
+    
